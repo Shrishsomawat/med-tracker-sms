@@ -35,7 +35,7 @@ for row in rows:
             client.messages.create(
                 body=message,
                 from_=TWILIO_PHONE,
-                to= "+918005993024"
+                to= phone
             )
             print("✅ SMS sent!")
         except Exception as e:
